@@ -1,4 +1,5 @@
-let anything:any|unknown = -20;
+type Anything = any | unknown
+let anything:Anything  = -20;
 anything = 'Text';
 anything = {};
 
